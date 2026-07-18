@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#151515">
+  <meta name="description" content="Portfolio of Ashkan Allhaveisi — AI programmer, video editor, CGI artist, motion graphic designer, and graphic designer.">
+  <meta property="og:title" content="Ashkan Allhaveisi — AI Programmer & Digital Artist">
+  <meta property="og:description" content="AI-powered creative solutions, cinematic editing, CGI, motion graphics, and graphic design.">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Ashkan Allhaveisi Portfolio">
+  <title>Ashkan Allhaveisi — AI Programmer & Digital Artist</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 64 64%22><rect width=%2264%22 height=%2264%22 rx=%2214%22 fill=%22%23151515%22/><circle cx=%2232%22 cy=%2232%22 r=%2214%22 fill=%22%23ff6733%22/><path d=%22M24 39l8-18 8 18h-6l-2-6-2 6z%22 fill=%22white%22/></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js" defer></script>
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="floating-nav" aria-label="Primary navigation">
+    <a class="brand-pill" href="#home"><span class="brand-dot"></span><span data-first-name>ASHKAN</span></a>
+    <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="site-menu"><span></span><span></span></button>
+  </header>
+
+  <div class="menu-overlay" id="site-menu" aria-hidden="true">
+    <div class="menu-inner">
+      <p class="micro-label">NAVIGATION</p>
+      <nav aria-label="Site sections">
+        <a href="#home">Home</a><a href="#about">About</a><a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#certificates">Certificates</a><a href="#contact">Contact</a>
+      </nav>
+      <p class="menu-contact"><a data-email-link href="mailto:ashkanwisi@gmail.com">ashkanwisi@gmail.com</a></p>
+    </div>
+  </div>
+
+  <main id="main">
+    <section class="hero shell" id="home" aria-labelledby="hero-title">
+      <div class="hero-primary">
+        <div class="hero-copy">
+          <p class="pill-label" data-primary-title>AI PROGRAMMER & DIGITAL ARTIST</p>
+          <p class="hero-kicker">Technology, image & motion</p>
+          <h1 id="hero-title"><span data-first-name>ASHKAN</span><span data-last-name>ALLHAVEISI</span></h1>
+          <p class="hero-intro">Creating intelligent visuals, cinematic content, digital experiences, and AI-powered creative solutions.</p>
+          <div class="button-row"><a class="button button-accent" href="#portfolio">View My Work</a><a class="button button-ghost" href="#contact">Contact Me</a></div>
+        </div>
+        <div class="hero-portrait media-frame" data-image-frame>
+          <div class="portrait-art" aria-hidden="true"><span></span></div>
+          <img src="assets/ashkan-portrait.png" alt="Portrait of Ashkan Allhaveisi" data-fallback-image>
+          <span class="image-note">ADD ASSETS/ASHKAN-PORTRAIT.PNG</span>
+        </div>
+        <div class="hero-role-strip" id="role-strip"></div>
+      </div>
+
+      <aside class="hero-panel reveal" aria-labelledby="results-title">
+        <div>
+          <p class="micro-label">THE WORK</p>
+          <h2 id="results-title">Creative Technology That Delivers Real Results</h2>
+          <p>I combine artificial intelligence, editing, CGI, motion graphics, and graphic design to create visual experiences that are both functional and memorable.</p>
+        </div>
+        <div class="stats" id="statistics-list"></div>
+        <div class="hero-panel-art" aria-hidden="true"><i></i><i></i><i></i></div>
+      </aside>
+    </section>
+
+    <section class="about shell section-pad" id="about" aria-labelledby="about-title">
+      <div class="section-heading reveal">
+        <p class="micro-label">01 / ABOUT</p>
+        <h2 id="about-title">Crafting Intelligent Visual Experiences That Stand Out</h2>
+        <p>I’m Ashkan Allhaveisi, a multidisciplinary digital creator working across artificial intelligence, video editing, CGI, motion graphics, and graphic design. I transform ideas into meaningful visual stories, digital products, cinematic content, and AI-powered experiences.</p>
+        <a class="button button-accent" href="#experience">More About Me</a>
+      </div>
+      <div class="about-visual reveal" aria-hidden="true">
+        <div class="orbital-stage"><span class="core">AI</span><span class="orbit o1">CGI</span><span class="orbit o2">EDIT</span><span class="orbit o3">MOTION</span></div>
+      </div>
+    </section>
+
+    <section class="orbit-showcase section-pad" aria-labelledby="showcase-title">
+      <div class="shell showcase-heading reveal"><p class="micro-label">CREATIVE DISCIPLINES</p><h2 id="showcase-title">Ideas in Orbit</h2><p>Six connected disciplines, one visual language.</p></div>
+      <div class="project-orbit shell" id="project-orbit"></div>
+    </section>
+
+    <section class="portfolio shell section-pad" id="portfolio" aria-labelledby="portfolio-title">
+      <div class="section-top reveal"><div><p class="micro-label">02 / SELECTED WORK</p><h2 id="portfolio-title">Selected Projects</h2></div><p>A collection of AI, CGI, editing, motion design, and visual communication projects.</p></div>
+      <div class="project-grid" id="project-grid"></div>
+    </section>
+
+    <section class="services shell section-pad" id="services" aria-labelledby="services-title">
+      <div class="section-top reveal"><div><p class="micro-label">03 / SERVICES</p><h2 id="services-title">Creative Solutions That Elevate Your Brand</h2></div><p>From the first intelligent workflow to the final cinematic frame.</p></div>
+      <div class="service-grid" id="service-grid"></div>
+    </section>
+
+    <section class="skills shell section-pad" id="skills" aria-labelledby="skills-title">
+      <div class="skills-intro reveal"><p class="micro-label">04 / CAPABILITIES</p><h2 id="skills-title">Skills & Creative Tools</h2><p>Technology and visual craft working as one integrated practice.</p></div>
+      <div class="skill-groups" id="skill-groups"></div>
+      <div class="software-row reveal" id="software-row"></div>
+    </section>
+
+    <section class="experience shell section-pad" id="experience" aria-labelledby="experience-title">
+      <div class="section-heading sticky-copy reveal"><p class="micro-label">05 / EXPERIENCE</p><h2 id="experience-title">Creative Journey</h2><p>A multidisciplinary path across intelligent systems, moving image, CGI, and design.</p></div>
+      <div class="timeline" id="experience-list"></div>
+    </section>
+
+    <section class="certificates shell section-pad" id="certificates" aria-labelledby="certificates-title">
+      <div class="certificate-heading reveal">
+        <div>
+          <p class="micro-label">CERTIFICATIONS</p>
+          <h2 id="certificates-title">Certificates &amp; Achievements</h2>
+        </div>
+        <div>
+          <p>A selection of professional certificates representing my journey through artificial intelligence, programming, editing, CGI, motion graphics, graphic design, and creative technology.</p>
+          <p class="certificate-count" id="certificate-count"></p>
+        </div>
+      </div>
+      <div class="certificate-filters reveal" id="certificate-filters" aria-label="Filter certificates"></div>
+      <div class="certificate-grid" id="certificate-grid" aria-live="polite"></div>
+      <p class="certificate-empty" id="certificate-empty" hidden>No certificates are available in this category.</p>
+    </section>
+
+    <section class="testimonials shell section-pad" aria-labelledby="testimonials-title">
+      <div class="section-top reveal"><div><p class="micro-label">06 / CLIENT VOICES</p><h2 id="testimonials-title">Trusted by Clients</h2></div><p>Clear thinking, polished execution, and memorable visual outcomes.</p></div>
+      <div class="testimonial-grid" id="testimonial-grid"></div>
+    </section>
+
+    <section class="packages shell section-pad" aria-labelledby="packages-title">
+      <div class="section-top reveal"><div><p class="micro-label">07 / COLLABORATION</p><h2 id="packages-title">Ways We Can Work Together</h2></div><p>Choose a starting point. Every engagement is shaped around the brief.</p></div>
+      <div class="package-grid" id="package-grid"></div>
+    </section>
+
+    <section class="cta shell reveal" aria-labelledby="cta-title">
+      <div class="cta-art" aria-hidden="true"><span></span></div>
+      <div class="cta-copy"><p class="micro-label">START SOMETHING</p><h2 id="cta-title">Let’s Bring Your Vision to Life</h2><p>Have an idea for an AI project, cinematic video, CGI visual, motion design, or creative campaign? Let’s build it together.</p><a class="button button-accent" href="#contact">Start a Project</a></div>
+    </section>
+
+    <section class="contact shell section-pad" id="contact" aria-labelledby="contact-title">
+      <div class="contact-copy reveal"><p class="micro-label">08 / CONTACT</p><h2 id="contact-title">Let’s Create Something Exceptional</h2><p>Share the ambition, the challenge, or even the rough first thought.</p><div class="direct-contact"><a data-email-link href="mailto:ashkanwisi@gmail.com"><small>Email</small><span data-email>ashkanwisi@gmail.com</span></a><a data-phone-link href="tel:+9647747974595"><small>Phone</small><span data-phone>+9647747974595</span></a></div></div>
+      <form class="contact-form reveal" id="contact-form" novalidate>
+        <div class="field"><label for="name">Name</label><input id="name" name="name" type="text" autocomplete="name" required><span class="field-error" id="name-error"></span></div>
+        <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required><span class="field-error" id="email-error"></span></div>
+        <div class="field"><label for="project-type">Project Type</label><select id="project-type" name="projectType" required><option value="">Select one</option><option>AI Programming</option><option>Video Editing</option><option>CGI & 3D</option><option>Motion Graphics</option><option>Graphic Design</option><option>Other</option></select><span class="field-error" id="project-type-error"></span></div>
+        <div class="field"><label for="budget">Budget Range</label><select id="budget" name="budget" required><option value="">Select a range</option><option>Under $500</option><option>$500–$1,500</option><option>$1,500–$5,000</option><option>$5,000+</option><option>Let’s discuss</option></select><span class="field-error" id="budget-error"></span></div>
+        <div class="field field-wide"><label for="message">Message</label><textarea id="message" name="message" rows="6" required minlength="20"></textarea><span class="field-error" id="message-error"></span></div>
+        <div class="form-footer field-wide"><button class="button button-accent" type="submit">Send Message</button><p class="form-status" id="form-status" role="status" aria-live="polite"></p></div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-grid">
+      <div><a class="footer-brand" href="#home" data-name>ASHKAN ALLHAVEISI</a><p id="footer-roles"></p></div>
+      <div><p class="micro-label">NAVIGATE</p><nav><a href="#home">Home</a><a href="#about">About</a><a href="#services">Services</a><a href="#portfolio">Portfolio</a><a href="#certificates">Certificates</a><a href="#contact">Contact</a></nav></div>
+      <div><p class="micro-label">CONNECT</p><div class="socials" id="social-links"></div></div>
+      <div><p class="micro-label">DIRECT</p><a data-email-link href="mailto:ashkanwisi@gmail.com">ashkanwisi@gmail.com</a><a data-phone-link href="tel:+9647747974595">+9647747974595</a></div>
+    </div>
+    <div class="shell copyright"><span>© 2026 Ashkan Allhaveisi. All rights reserved.</span><span>AI × IMAGE × MOTION</span></div>
+  </footer>
+
+  <div class="certificate-modal" id="certificate-modal" role="dialog" aria-modal="true" aria-labelledby="certificate-modal-title" aria-hidden="true">
+    <div class="certificate-modal-backdrop" data-modal-close></div>
+    <div class="certificate-modal-panel" role="document">
+      <header class="certificate-modal-header">
+        <div><p class="micro-label">CERTIFICATE VIEWER</p><h2 id="certificate-modal-title">Certificate</h2></div>
+        <button class="certificate-modal-close" type="button" aria-label="Close certificate viewer" data-modal-close>×</button>
+      </header>
+      <div class="certificate-modal-stage" id="certificate-modal-stage"></div>
+      <footer class="certificate-modal-footer">
+        <div class="certificate-modal-nav">
+          <button type="button" id="certificate-previous" aria-label="View previous certificate">← Previous</button>
+          <span id="certificate-position" aria-live="polite"></span>
+          <button type="button" id="certificate-next" aria-label="View next certificate">Next →</button>
+        </div>
+        <div class="certificate-modal-actions">
+          <a id="certificate-original" href="#" target="_blank" rel="noopener noreferrer">Open Original</a>
+          <a id="certificate-download" href="#" download>Download</a>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+  <button class="back-top" type="button" aria-label="Back to top">↑</button>
+</body>
+</html>
